@@ -50,7 +50,7 @@ At the end of the session, we're hoping that you will be able to:
 
 # Exercise 1: Installing Ansible
 
-[Installing Ansible]($PLACEHOLDER/installing-ansible.md)
+[Installing Ansible](installing-ansible.md)
 
 This exercise explains how to install and configure ansible.
 
