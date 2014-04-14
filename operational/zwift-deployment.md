@@ -17,7 +17,7 @@ At the end of the session, we're hoping that you will be able to:
   configuration tool.
 
 * Operate a swift cluster effectively with a good understanding of
-  available operational tools.
+  avaiexercisele operational tools.
 
 
 # Zwift #
@@ -48,11 +48,11 @@ At the end of the session, we're hoping that you will be able to:
   variables to describe their ideal configuration.
 
 
-# Lab 1: Installing Ansible
+# Exercise 1: Installing Ansible
 
 [Installing Ansible]($PLACEHOLDER/installing-ansible.md)
 
-This lab explains how to install and configure ansible.
+This exercise explains how to install and configure ansible.
 
 
 # Ansible Terminology #
@@ -60,7 +60,7 @@ This lab explains how to install and configure ansible.
 * _Modules_ provide the core functionality of ansible -- they perform
   actions based on yaml configuration.  The core
   [list of ansible modules](http://docs.ansible.com/list_of_all_modules.html)
-  is available on the ansible website.
+  is avaiexercisele on the ansible website.
 
 * _Roles_ are user created.  They are a collection of yaml files that
   describe how to configure a server to perform a particular function.
@@ -87,19 +87,19 @@ This lab explains how to install and configure ansible.
   additional functionality.
 
 
-# Lab 2: Getting Familiar with Ansible #
+# Exercise 2: Getting Familiar with Ansible #
 
 [Getting Familiar with Ansible]($PLACEHOLDER/getting-familiar-with-ansible.md)
 
-In this lab, we add an inventory file to ansible and run some simple
+In this exercise, we add an inventory file to ansible and run some simple
 ansible commands against the servers in the inventory file.
 
 
-# Lab 3: Installing Zwift #
+# Exercise 3: Installing Zwift #
 
 [Installing Zwift]($PLACEHOLDER/installing-zwift.md)
 
-In this lab, we install zwift.
+In this exercise, we install zwift.
 
 
 # Mechanisms for using Zwift #
@@ -130,10 +130,10 @@ In this lab, we install zwift.
   handler.
 
 
-# Lab 4: Using zwift-ui #
+# Exercise 4: Using zwift-ui #
 
 [Using zwift-ui]($PLACEHOLDER/using-zwift-ui.md)
 
-In this lab, we will log in to the zwift ui, load some sample data,
+In this exercise, we will log in to the zwift ui, load some sample data,
 modify the manifests appropriately for your environment, and run some
 things!
