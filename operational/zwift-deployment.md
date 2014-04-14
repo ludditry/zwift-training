@@ -17,7 +17,7 @@ At the end of the session, we're hoping that you will be able to:
   configuration tool.
 
 * Operate a swift cluster effectively with a good understanding of
-  avaiexercisele operational tools.
+  available operational tools.
 
 
 # Zwift #
@@ -50,7 +50,7 @@ At the end of the session, we're hoping that you will be able to:
 
 # Exercise 1: Installing Ansible
 
-[Installing Ansible](installing-ansible.md)
+[Installing Ansible](https://github.com/ludditry/zwift-training/blob/master/operational/installing-ansible.md)
 
 This exercise explains how to install and configure ansible.
 
@@ -89,7 +89,7 @@ This exercise explains how to install and configure ansible.
 
 # Exercise 2: Getting Familiar with Ansible #
 
-[Getting Familiar with Ansible](getting-familiar-with-ansible.md)
+[Getting Familiar with Ansible](https://github.com/ludditry/zwift-training/blob/master/operational/getting-familiar-with-ansible.md)
 
 In this exercise, we add an inventory file to ansible and run some simple
 ansible commands against the servers in the inventory file.
@@ -97,7 +97,7 @@ ansible commands against the servers in the inventory file.
 
 # Exercise 3: Installing Zwift #
 
-[Installing Zwift](installing-zwift.md)
+[Installing Zwift](https://github.com/ludditry/zwift-training/blob/master/operational/installing-zwift.md)
 
 In this exercise, we install zwift.
 
@@ -132,7 +132,7 @@ In this exercise, we install zwift.
 
 # Exercise 4: Using zwift-ui #
 
-[Using zwift-ui](using-zwift-ui.md)
+[Using zwift-ui](https://github.com/ludditry/zwift-training/blob/master/operational/using-zwift-ui.md)
 
 In this exercise, we will log in to the zwift ui, load some sample data,
 modify the manifests appropriately for your environment, and run some
