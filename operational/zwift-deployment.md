@@ -89,7 +89,7 @@ This exercise explains how to install and configure ansible.
 
 # Exercise 2: Getting Familiar with Ansible #
 
-[Getting Familiar with Ansible]($PLACEHOLDER/getting-familiar-with-ansible.md)
+[Getting Familiar with Ansible](getting-familiar-with-ansible.md)
 
 In this exercise, we add an inventory file to ansible and run some simple
 ansible commands against the servers in the inventory file.
@@ -97,7 +97,7 @@ ansible commands against the servers in the inventory file.
 
 # Exercise 3: Installing Zwift #
 
-[Installing Zwift]($PLACEHOLDER/installing-zwift.md)
+[Installing Zwift](installing-zwift.md)
 
 In this exercise, we install zwift.
 
@@ -132,7 +132,7 @@ In this exercise, we install zwift.
 
 # Exercise 4: Using zwift-ui #
 
-[Using zwift-ui]($PLACEHOLDER/using-zwift-ui.md)
+[Using zwift-ui](using-zwift-ui.md)
 
 In this exercise, we will log in to the zwift ui, load some sample data,
 modify the manifests appropriately for your environment, and run some
