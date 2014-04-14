@@ -92,8 +92,14 @@ This lab explains how to install and configure ansible.
 [Getting Familiar with Ansible]($PLACEHOLDER/getting-familiar-with-ansible.md)
 
 In this lab, we add an inventory file to ansible and run some simple
-ansible commands against the servers in the inventory file,
-culminating in a zwift deployment.
+ansible commands against the servers in the inventory file.
+
+
+# Lab 3: Installing Zwift #
+
+[Installing Zwift]($PLACEHOLDER/installing-zwift.md)
+
+In this lab, we install zwift.
 
 
 # Mechanisms for using Zwift #
@@ -124,7 +130,7 @@ culminating in a zwift deployment.
   handler.
 
 
-# Lab 3: Using zwift-ui #
+# Lab 4: Using zwift-ui #
 
 [Using zwift-ui]($PLACEHOLDER/using-zwift-ui.md)
 
