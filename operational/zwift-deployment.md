@@ -65,15 +65,30 @@ This exercise explains how to install and configure ansible.
 * _Roles_ are user created.  They are a collection of yaml files that
   describe how to configure a server to perform a particular function.
 
-* _Variables_ can be specified in roles, through ansible's automatic
-  discovery mechanism, in the inventory as global defaults or against
-  a specific host, in playbooks, or at the command line at runtime,
-  and the value of a variable specified in multiple places is resolved
-  in the listed order, with the command line winning..
+* _Variables_ are used in templates, playbooks, and roles to allow
+  user specified or ansible discovered data.
 
 * _Playbooks_ contain specific descriptions of actions to take to
   accomplish a particular task (configure a zwift cluster, for
   example).
+
+
+# Ansible variable scope rules #
+
+Variables can be defined in more than one place.  The precedence is as
+follows (command line wins):
+
+## Variable Precedence ##
+
+* role defined defaults
+
+* ansible discovery scripts
+
+* inventory variables
+
+* playbook variables
+
+* command line variables
 
 
 # Ansible directory layout #

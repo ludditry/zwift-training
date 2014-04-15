@@ -117,10 +117,22 @@
 <section id="ansible-terminology" class="slide level1">
 <h1>Ansible Terminology</h1>
 <ul>
-<li><p><em>Modules</em> provide the core functionality of ansible -- they perform actions based on yaml configuration. The core <a href="http://docs.ansible.com/list_of_all_modules.html">list of ansible modules</a> is avaiexercisele on the ansible website.</p></li>
+<li><p><em>Modules</em> provide the core functionality of ansible -- they perform actions based on yaml configuration. The core <a href="http://docs.ansible.com/list_of_all_modules.html">list of ansible modules</a> is avaiable on the ansible website.</p></li>
 <li><p><em>Roles</em> are user created. They are a collection of yaml files that describe how to configure a server to perform a particular function.</p></li>
-<li><p><em>Variables</em> can be specified in roles, through ansible's automatic discovery mechanism, in the inventory as global defaults or against a specific host, in playbooks, or at the command line at runtime, and the value of a variable specified in multiple places is resolved in the listed order, with the command line winning..</p></li>
+<li><p><em>Variables</em> are used in templates, playbooks, and roles to allow user specified or ansible discovered data.</p></li>
 <li><p><em>Playbooks</em> contain specific descriptions of actions to take to accomplish a particular task (configure a zwift cluster, for example).</p></li>
+</ul>
+</section>
+<section id="ansible-variable-scope-rules" class="slide level1">
+<h1>Ansible variable scope rules</h1>
+<p>Variables can be defined in more than one place. The precedence is as follows (command line wins):</p>
+<h2 id="variable-precedence">Variable Precedence</h2>
+<ul>
+<li><p>role defined defaults</p></li>
+<li><p>ansible discovery scripts</p></li>
+<li><p>inventory variables</p></li>
+<li><p>playbook variables</p></li>
+<li><p>command line variables</p></li>
 </ul>
 </section>
 <section id="ansible-directory-layout" class="slide level1">
