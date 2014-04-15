@@ -60,7 +60,7 @@ This exercise explains how to install and configure ansible.
 * _Modules_ provide the core functionality of ansible -- they perform
   actions based on yaml configuration.  The core
   [list of ansible modules](http://docs.ansible.com/list_of_all_modules.html)
-  is avaiexercisele on the ansible website.
+  is avaiable on the ansible website.
 
 * _Roles_ are user created.  They are a collection of yaml files that
   describe how to configure a server to perform a particular function.
